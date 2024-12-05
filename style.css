@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+}
+
+h2, h3{
+    border-bottom: 2px solid #3D3D3D;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightgray;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+figcaption {
+    margin-top: 5px;
+    color: #3D3D3D;
+}
