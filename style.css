@@ -25,3 +25,23 @@ figcaption {
     margin-top: 5px;
     color: #3D3D3D;
 }
+.matriz {
+  width: 550px;
+  margin: 0 auto; /* Centraliza a figura */
+}
+
+.matriz img {
+  width: 100%; /* Ajusta a imagem para caber dentro da figura */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.familia {
+  width: 275px;
+  float: right; /* Alinha a figura à direita */
+  margin: 0 0 10px 10px; /* Adiciona margem para espaçamento */
+}
+
+.familia img {
+  width: 100%; /* Ajusta a imagem para caber dentro da figura */
+  height: auto; /* Mantém a proporção da imagem */
+}
