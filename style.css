@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e4255;
 }
 
-p{
+p {
     text-align: justify;
-
 }
 
-#legenda{
+#legenda {
     text-align: center;
 }
 
@@ -33,23 +35,53 @@ figcaption {
     color: #3D3D3D;
 }
 
+
+/*Index*/
+.header__index {
+    background-color: #2D5377;
+    width: 100%;
+    color: #FFF;
+    padding: 10px 0;
+}
+
+.link-class {
+    color: #2e4255;
+    text-decoration: none;
+}
+
+
+nav .menu__index {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body__index {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e4255;
+}
+
+
+/*Sobre*/
 .matriz {
     width: 550px;
-    margin: 0 auto; /* Centraliza a figura */
+    margin: 0 auto;
 }
 
 .matriz img {
-    width: 100%; /* Ajusta a imagem para caber dentro da figura */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%;
+    height: auto;
 }
 
 .familia {
     width: 275px;
-    float: right; /* Alinha a figura à direita */
-    margin: 0 0 10px 10px; /* Adiciona margem para espaçamento */
+    float: right;
+    margin: 0 0 10px 10px;
 }
 
 .familia img {
-    width: 100%; /* Ajusta a imagem para caber dentro da figura */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%;
+    height: auto;
 }
