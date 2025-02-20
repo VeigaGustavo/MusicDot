@@ -8,4 +8,6 @@ function handleFormSubmit(event) {
     alert('Formulário enviado com sucesso!');
 
     event.target.reset();
+
+    window.location.href = 'index.html';
 }
