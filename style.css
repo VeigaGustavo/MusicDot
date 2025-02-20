@@ -45,8 +45,12 @@ figcaption {
 }
 
 .link-class {
-    color: #2e4255;
+    color: #FFF;
     text-decoration: none;
+}
+
+.link-class:hover {
+    text-decoration: underline;
 }
 
 
